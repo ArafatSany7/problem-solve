@@ -8,7 +8,7 @@ def insertion(arr, size):
         arr[j + 1] = key
 
 
-arr = [23, 34, 35, 11, 34, 45, 13, 14, 34, 44, 27, 67]
+arr = [23, 34, 35, 11, 34, 45, 13, 14, 34, 44, 27, 67,70]
 size = len(arr)
 
 insertion(arr, size)

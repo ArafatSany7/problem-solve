@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 2px;
+        border: 1px solid black;
+        width: 300px;
+        margin: 20px auto;
+      }
+      .box {
+        border: 1px solid black;
+        padding: 2px;
+        margin: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        font-size: 18px;
+      }
+      .full {
+        grid-column: span 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">1.1</div>
+      <div class="box">1.2</div>
+      <div class="box">3.1</div>
+      <div class="box">2.2</div>
+      <div class="box full">4.1</div>
+    </div>
+  </body>
+</html>
